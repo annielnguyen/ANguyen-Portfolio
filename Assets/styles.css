@@ -59,7 +59,7 @@ body{
 }
 
 #AboutMe{
-    margin-top: 20px;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     height: 300px;
@@ -67,29 +67,45 @@ body{
     background-color: #f6f7f8;
     color: black;
     box-sizing: content-box;
-    width: 50%;
+    width: 80%;
     padding: 50px;
     text-align: center;
+    padding-right: 40px;
+    display: flex;
     
 }
 #AboutMe img{
     max-height: 200px;
-    display: flex;
+    
 }
 
+.Intro {
+    display: inline;
+}
 
 #MyWork {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* height: 300px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     background-color: #f6f7f8;
     color: black;
     box-sizing: content-box;
-    width: 50%;
+    width: 80%;
     padding: 50px;
     text-align: center;
+}
+
+.WorkPics img {
+    max-height: 200px;
+}
+.work-gallery {
+    display:flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #MyWork img {
@@ -97,58 +113,43 @@ body{
 }
 
 #ContactMe {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #f6f7f8;
     color: black;
-    width: 50%;
+    width: 80%;
     padding: 50px;
     text-align: center;
 }
 
 
 .fab{
-    color:rgb(196, 23, 129);
+    color:black;
     display: inline-flex;
+    margin: 20px;
     
 }
+.fab:hover{
+    color: #C8A49E;
+}
 .fas {
-    color: rgb(196, 23, 129);
+    color: black;
     display: inline flex;
+    margin: 20px;
 
 }
-
-.fab fa-github-square fa-3x {
-    color: rgb(196, 23, 129);
-    display: inline flex;
+.fas:hover{
+    color: #C8A49E;
 }
+
 #email .text{
     bottom:30px;
     left:0px;
     visibility:hidden;
-}
-
-
-#email:hover .text{
-    visibility:visible;
-    color: black;
-    font-size: larger;
-
-}
-
-#mobile .text {
-    bottom:30px;
-    left:0px;
-    visibility:hidden;
-}
-    
-#mobile:hover .text {
-    visibility:visible;
-    color: black;
-    font-size: larger;
 }
 
 #linkedin .text {
@@ -156,38 +157,28 @@ body{
     left:0px;
     visibility:hidden;
 }
-#linkedin:hover .text {
-    visibility:visible;
-    color: black;
-    font-size: larger;
-}
 
 #ContactMe *{
     padding: 0 15px;
 }
 
-
-
-#github .text{
-    bottom:30px;
-    left:0px;
-    visibility:hidden;
-}
-
-#github:hover .text {
-    visibility:visible;
-    color: black;
-    font-size: larger; 
-}
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1.5px solid black; 
+    border: 1.5px solid #C8A49E; 
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px; 
     margin-bottom: 20px; 
     resize: vertical;
+  }
+  input[type=submit] {
+    background-color:black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    height: 30px;
+
   }
   input[type=submit]:hover {
     background-color: #C8A49E;
