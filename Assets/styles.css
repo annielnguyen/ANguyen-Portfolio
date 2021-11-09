@@ -99,29 +99,38 @@ body{
     width: 80%;
     padding: 50px;
     text-align: center;
+}
+
+h2 {
+    font-weight:bolder;
+}
+
+#MyWork p {
     font-style: italic;
 }
 #firstsite {
     max-height: 400px;
-    width: 90%;
+    flex-basis:100%;
+    
 }
 
 .WorkPics img {
     max-height: 200px;
-    width: 29.7%;
+    /* width: 29.7%; */
+    flex-basis:33.3%;
     filter:grayscale();
 
-  }
+}
 .WorkPics img:hover{
     filter:none;
 }
 
-.work-gallery {
+.WorkPics {
     display:flex;
-    gap: 10px;
+    /* gap: 10px; */
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 
 #ContactMe {
@@ -136,6 +145,7 @@ body{
     width: 80%;
     padding: 50px;
     text-align: center;
+    font-weight: bold;
 }
 
 
@@ -201,7 +211,7 @@ input[type=text], select, textarea {
  
   @media screen and (max-width: 992px) {
     .WorkPics img {
-      width: 50%;
+      flex-basis: 25%;
       
     }
 
