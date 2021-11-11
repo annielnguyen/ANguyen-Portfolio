@@ -9,8 +9,9 @@ I enjoyed this assignment as it was a way for me to be creative! This project wa
 
 # Links
 Here are my links and screenshots below: 
+https://github.com/annielnguyen/Portfolio.git
 
-![Portfolio Screenshot1](./assets/Portfolio1.png)
-![Portfolio Screenshot2](./assets/Portfolio2.png)
-![Portfolio Screenshot3](./assets/portfolio3.png)
+![Portfolio Screenshot1](./Assets/Portfolio1.png)
+![Portfolio Screenshot2](./Assets/Portfolio2.png)
+![Portfolio Screenshot3](./Assets/portfolio3.png)
 
