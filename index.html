@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Annie's Portfolio'</title>
     <link rel="stylesheet" href="./Assets/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
     <link rel="icon" href="./Assets/flower logo.png" alt="flower logo"/>
@@ -27,9 +28,8 @@
             </nav>
         </nav>
     </header>
-    <main>
-        <main class="content">
 
+    <main>
             <!--About Me Section-->
                 <section id="AboutMe">
                     <img class="Authorpic" src="./Assets/Anniepic.jpg" alt="Image of Author"/>
@@ -48,17 +48,25 @@
                  
                 <!--My Work Section-->
                  <section id="MyWork">
-                     <h2>MY WORK</h2>
-                    
-                    <div class="WorkPics">
-                        
-                        <img id="firstsite" src="./Assets/f11a03ad9ef8e8eeb1625b3a37a7a1be.png" alt="Image of a webpage"/> 
-                         <img  src="./Assets/bagpack_brand_ghoareau_4x.webp" alt="Image of a webpage"/>
-                         <img  src="./Assets/il_fullxfull.899895336_mtc0.jpg" alt="Image of a webpage"/>
-                         <img  src="./Assets/frame_2__1__4x.webp" alt="Image of webpage"/> 
-                         <p> These are not actual samples of my work. They are used as placeholders for this assignment.</p>
+                    <div class="container">
+                        <h2>MY WORK</h2>
+                        <div class= "row">
+                            <div class="col-12">
+                                <a href="https://jlee3883.github.io/Moody-Moovies-and-Foodies/"><img src="Assets/moodypage1.png" alt="Moody Moovies & Foodies webpage"/></a>
+                            </div>     
+                        </div>
+                        <div class= "row"> 
+                            <div class ="col-md-6 nopadding">
+                                <a href="https://annielnguyen.github.io/Day-Planner/"><img src="Assets/workday.png" alt="Work day planner"/></a>
+                            </div>
+                            <div class="col-md-6 nopadding">
+                                    <a href="https://annielnguyen.github.io/Password-Generator/"><img id="pw" src="Assets/pwgenerator.png" alt="password generator"/></a>
+                            </div>  
+                        </div> 
                     </div>
-                </section> 
+
+                </section>
+                    
             <!--Contact Me Section--> 
                  <section id="ContactMe">
                    <h2>CONTACT ME</h2>  
@@ -77,8 +85,13 @@
                                   <i class="fab fa-github-square fa-2x" alt="github icon"></i>
                                 </a>
                             </span>
+                            <span id="resume">
+                                <a href="Assets/ucla resume.pdf" download>
+                                  <i class="fas fa-file fa-2x" alt="github icon"></i>
+                                </a>
+                            </span>
         
-                    <div class="container">
+                    <div class="form-container">
                         <form action="action_page.php">
                       
                           <input type="text" id="fname" placeholder="Name*">
@@ -88,13 +101,13 @@
                           <input type="submit" value="Submit">
                       
                         </form>
-                      </div>
+                    </div>
                 </section>
     </main>
     <!--Footer section-->
     <footer class="text-center">
         © 2021 by ANNIE LYNN PRODUCTIONS
-      </footer>
+    </footer>
         
 </body>
 </html>

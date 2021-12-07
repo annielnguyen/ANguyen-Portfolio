@@ -9,7 +9,7 @@ I enjoyed this assignment as it was a way for me to be creative! This project wa
 
 # Links
 Here are my links and screenshots below: 
-https://github.com/annielnguyen/Portfolio.git
+https://github.com/annielnguyen/ANguyen-Portfolio
 https://annielnguyen.github.io/Portfolio/
 
 ![Portfolio Screenshot1](./Assets/Portfolio1.png)
