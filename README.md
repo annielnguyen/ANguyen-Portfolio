@@ -11,7 +11,7 @@ HTML and CSS
 # Links
 Here are my links and screenshots below: 
 https://github.com/annielnguyen/ANguyen-Portfolio
-https://annielnguyen.github.io/Portfolio/
+https://annielnguyen.github.io/ANguyen-Portfolio/
 
 ![Portfolio Screenshot1](./Assets/Portfolio1.png)
 ![Portfolio Screenshot2](./Assets/Portfolio2.png)
